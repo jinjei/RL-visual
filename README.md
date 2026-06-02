@@ -44,10 +44,27 @@
 
 <div align="center">
 
-<!-- 首页 / 主界面：换成你的截图或录屏 GIF -->
-<img src="docs/media/home.png" alt="RL Visualizer 主界面" width="90%"/>
+<img src="docs/media/home1.png" alt="RL Visualizer 主界面" width="88%"/>
 
-<br/><sub>主界面 · 六种算法分章节呈现 · 中英一键切换</sub>
+<sub>主界面 · 六种算法 + Q 值热力图 / 策略可视化 / 价值优势分解 / 2D 连续控制 / 训练曲线 / 本地运行</sub>
+
+<br/><br/>
+
+<img src="docs/media/home2.png" alt="算法分章节导航" width="88%"/>
+
+<sub>分三章循序渐进 · 表格型 RL → 深度值方法 → 策略梯度</sub>
+
+</div>
+
+<br/>
+
+### 🕹️ 网格游乐场 · 观看学习 <sub>(招牌功能)</sub>
+
+<div align="center">
+
+<img src="docs/media/playground-learn.gif" alt="网格游乐场 · 观看学习" width="80%"/>
+
+<sub>自己画迷宫、调 α/γ/ε，实时观看策略从随机逐渐收敛；动画长度随收敛快慢自适应，最后小人沿最优路径走到终点</sub>
 
 </div>
 
@@ -56,43 +73,17 @@
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="docs/media/playground-learn.gif" alt="网格游乐场 · 观看学习" width="100%"/>
-<br/><b>🕹️ 网格游乐场 · 观看学习</b>
-<br/><sub>自己画迷宫、调 α/γ/ε，实时观看策略从随机逐渐收敛</sub>
+<img src="docs/media/cartpole.gif" alt="CartPole · DQN / Dueling DQN" width="100%"/>
+<br/><b>🧠 CartPole · DQN / Dueling DQN</b>
+<br/><sub>经验回放 + 目标网络；Dueling 把 Q 拆成 V(s) 与 A(s,a) 并排展示</sub>
 </td>
 <td width="50%" align="center">
-<img src="docs/media/qlearning-gridworld.gif" alt="Q-Learning · GridWorld" width="100%"/>
-<br/><b>🟦 Q-Learning · GridWorld</b>
-<br/><sub>Q 值热力图 + 策略箭头，智能体沿最优路径到达终点</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="docs/media/cliff-sarsa-vs-q.gif" alt="CliffWalking · SARSA vs Q-Learning" width="100%"/>
-<br/><b>🧗 Cliff Walking · SARSA vs Q-Learning</b>
-<br/><sub>一个贴悬崖走最短路，一个绕道求安全</sub>
-</td>
-<td width="50%" align="center">
-<img src="docs/media/dueling-dqn.gif" alt="Dueling DQN · V/A 分解" width="100%"/>
-<br/><b>🧠 Dueling DQN · CartPole</b>
-<br/><sub>Q 值图 / 价值图 V(s) / 优势图 A(s,a) 并排对比</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="docs/media/ppo-nav2d.gif" alt="PPO · 2D 连续导航" width="100%"/>
-<br/><b>🎯 PPO · 2D Navigation</b>
-<br/><sub>连续动作空间中绕过障碍，轨迹实时动画</sub>
-</td>
-<td width="50%" align="center">
-<img src="docs/media/a2c-nav2d.gif" alt="A2C · 2D 连续导航" width="100%"/>
-<br/><b>🎭 A2C · 2D Navigation</b>
-<br/><sub>演员-评论家，优势函数驱动策略更新</sub>
+<img src="docs/media/2D.gif" alt="2D 连续导航 · A2C / PPO" width="100%"/>
+<br/><b>🎯 2D Navigation · A2C / PPO</b>
+<br/><sub>连续动作空间中绕过障碍到达目标，轨迹实时动画</sub>
 </td>
 </tr>
 </table>
-
-> 📸 **以上媒体文件放在 [`docs/media/`](docs/media/) 下**（仓库里已带占位说明）。录制方法见 [docs/media/README.md](docs/media/README.md) —— 用 [Kap](https://getkap.co/) 录屏直接导出 GIF，拖进文件夹即可在此处显示。
 
 ---
 

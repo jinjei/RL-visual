@@ -2,15 +2,17 @@
 
 主 README 的「🎬 Demo 预览」会引用本文件夹下的图片/动图。把你录好的文件按下面的**文件名**放进来，就会自动在 README 中显示。
 
-| 文件名 | 内容 | 建议页面 |
-|--------|------|----------|
-| `home.png` | 主界面截图 | 首页 |
+当前 README 实际引用这些文件:
+
+| 文件名 | 内容 | 页面 |
+|--------|------|------|
+| `home1.png` | 主界面顶部(标题 + 算法徽章 + 特性卡片) | 首页 |
+| `home2.png` | 主界面分章节算法导航 | 首页 |
 | `playground-learn.gif` | 网格游乐场「观看学习」全过程 | 游乐场 → 观看学习 |
-| `qlearning-gridworld.gif` | Q 值热力图 + 箭头 + 小人到终点 | Q-Learning |
-| `cliff-sarsa-vs-q.gif` | 悬崖行走两种走法对比 | SARSA / Q-Learning |
-| `dueling-dqn.gif` | Q / V(s) / A(s,a) 三图并排 | Dueling DQN |
-| `ppo-nav2d.gif` | 2D 连续导航轨迹 | PPO |
-| `a2c-nav2d.gif` | 2D 连续导航轨迹 | A2C |
+| `cartpole.gif` | CartPole 平衡杆 | DQN / Dueling DQN |
+| `2D.gif` | 2D 连续导航轨迹 | A2C / PPO |
+
+> 想再补充就按需加文件,并在主 README 的「🎬 Demo 预览」里加一行 `<img>` 引用即可。
 
 ---
 
